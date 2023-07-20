@@ -105,7 +105,7 @@ section {
   color: transparent;
   -webkit-text-stroke: .7px var(--main-color);
 }
-/*
+
 .home-content p {
   font-size: 1.6rem;
   margin: 2rem 0 4rem;
@@ -170,7 +170,7 @@ section {
 .btn-box .btn:hover::before {
   width: 100%;
 }
-
+/*
 .home-sci {
   position: absolute;
   bottom: 4rem;
