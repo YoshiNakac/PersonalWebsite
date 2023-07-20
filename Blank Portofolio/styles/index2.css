@@ -170,7 +170,7 @@ section {
 .btn-box .btn:hover::before {
   width: 100%;
 }
-/*
+
 .home-sci {
   position: absolute;
   bottom: 4rem;
@@ -230,7 +230,7 @@ section {
   background: var(--bg-color);
   opacity: .8;
 }
-
+/*
 .about {
   display: flex;
   justify-content: center;
