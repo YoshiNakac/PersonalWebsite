@@ -30,7 +30,7 @@ body {
   color:var(--text-color);
 }
 
-/* .header {
+.header {
   position: fixed;
   top: 0;
   left: 0;
@@ -83,7 +83,7 @@ section {
   background-position: center;
 }
 
-.home-content {
+/* .home-content {
   max-width: 60rem;
 }
 
@@ -388,5 +388,5 @@ span {
   font-size: 1.6rem;
   padding-top: .5rem;
 }
-
  */
+
