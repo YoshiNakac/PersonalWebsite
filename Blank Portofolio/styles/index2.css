@@ -30,7 +30,7 @@ body {
   color:var(--text-color);
 }
 
-.header {
+/* .header {
   position: fixed;
   top: 0;
   left: 0;
@@ -389,3 +389,4 @@ span {
   padding-top: .5rem;
 }
 
+ */
