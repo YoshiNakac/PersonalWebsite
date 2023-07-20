@@ -83,10 +83,11 @@ section {
   background-position: center;
 }
 
-/* .home-content {
+.home-content {
   max-width: 60rem;
 }
 
+/*
 .home-content h1 {
   font-size: 5.6rem;
   font-weight: 700;
