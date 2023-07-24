@@ -231,7 +231,6 @@ section {
   background: var(--bg-color);
   opacity: .8;
 }
-/*
 .about {
   display: flex;
   justify-content: center;
@@ -390,5 +389,5 @@ span {
   font-size: 1.6rem;
   padding-top: .5rem;
 }
- */
+
 
