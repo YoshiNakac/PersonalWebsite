@@ -1,6 +1,11 @@
 // Toggle Icon Navbar
 let menuIcon = document.querySelector("#menu-icon");
-// let navbar = document.querySelector(".navbar");
+let navbar = document.querySelector(".navbar");
+
+menuIcon.onclick = () => {
+  menuIcon.classList.toggle("bx-x");
+  navbar.classList.toggle("active");
+};
 
 menuIcon.addEventListener = () => {
   menuIcon.classList.toggle("bx-x");
@@ -22,6 +27,10 @@ window.onscroll = () => {
         links.classList.remove("active");
         document.querySelector(`header nav a[href="#${id}"]`).classList.add("active");
       });
+      // Active Sections for Animation on Scroll
+      sec.classList.add("show-animate");
+    } else {
+      sec.classList.remove("show-animate");
     }
   });
 
@@ -29,4 +38,9 @@ window.onscroll = () => {
   let header = document.querySelector("header");
 
   header.classList.toggle("sticky", window.scrollY > 100);
+
+  // Remove Toggle Icon and Navbar when navbar links (scroll) clicked
+
+  menuIcon.classList.remove("bx-x");
+  navbar.classList.remove("active");
 };
