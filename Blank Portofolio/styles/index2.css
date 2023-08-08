@@ -127,6 +127,9 @@ section {
   background-repeat: no-repeat;
   -webkit-background-clip: text;
   background-position: -33rem 0;
+}
+
+.home.show-animate .home-content .text-animate h3 {
   animation: homeBgText 6s linear infinite;
   animation-delay: 2s;
 }
@@ -140,6 +143,9 @@ section {
   height: 100%;
   border-right: 2px solid var(--main-color);
   z-index: -1;
+}
+
+.home.show-animate .home-content .text-animate h3::before {
   animation: homeCursorText 6s linear infinite;
   animation-delay: 2s;
 }
@@ -281,6 +287,7 @@ section {
 
 .heading {
   position: relative;
+  display: inline-block;
   font-size: 5rem;
   margin-bottom: 3rem;
   text-align: center;
@@ -325,10 +332,13 @@ span {
 }
 
 .about-content h3 {
+  position: relative;
+  display: inline-block;
   font-size: 2.6rem;
 }
 
 .about-content p {
+  position: relative;
   font-size: 1.6rem;
   margin: 2rem 0 3rem;
 }
@@ -584,7 +594,12 @@ span {
   animation: none;
 }
 
-.about.show-animate .animate.scroll {
+section:nth-child(odd) .animate.scroll {
+  background: var(--second-bg-color);
+}
+
+.about.show-animate .animate.scroll,
+.education.show-animate .animate.scroll {
   transition-delay: calc(.3s * var(--i));
   width: 0;
 }
@@ -612,6 +627,12 @@ span {
 
   .footing{
     padding: 2rem 4%;
+  }
+}
+
+@media (max-width: 850px) {
+  .animate.home-img {
+    width: 55%;
   }
 }
 
@@ -779,4 +800,3 @@ span {
     width: 0;
   }
 }
-
