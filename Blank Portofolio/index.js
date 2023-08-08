@@ -6,8 +6,8 @@ menuIcon.addEventListener = () => {
   menuIcon.classList.toggle("bx-x");
 };
 // Scroll Section
-let sections = document.querySelector("sections");
-let navLinks = document.querySelector("header nav a");
+let sections = document.querySelectorAll("section");
+let navLinks = document.querySelectorAll("header nav a");
 
 window.onscroll = () => {
   sections.forEach((sec) => {
