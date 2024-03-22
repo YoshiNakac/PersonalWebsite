@@ -335,6 +335,7 @@ span {
   position: relative;
   display: inline-block;
   font-size: 2.6rem;
+  white-space: nowrap;
 }
 
 .about-content p {
