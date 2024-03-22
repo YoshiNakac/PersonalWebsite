@@ -268,7 +268,7 @@ section {
   width: 25%;
   height: 100%;
   background: transparent;
-  transition: 3s;
+  /*transition: 3s;*/
 }
 
 .home-imgHover:hover {
