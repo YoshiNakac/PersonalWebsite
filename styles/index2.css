@@ -91,8 +91,8 @@ section {
   padding: 0 9%;
   background-image: url('../PhotosWebsite/GradPic.jpg');
   background-repeat: no-repeat;  
-  background-size: cover;
-  background-position: 45% center;
+  background-size: 50% auto;
+  background-position: right center;
 }
 
 .home-content {
@@ -265,7 +265,7 @@ section {
   position: absolute;
   top: 0;
   right: 0;
-  width: 45%;
+  width: 25%;
   height: 100%;
   background: transparent;
   transition: 3s;
